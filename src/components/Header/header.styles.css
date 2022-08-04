@@ -1,0 +1,11 @@
+.Header{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    height: 45px;
+    margin-top: 10%;
+}
