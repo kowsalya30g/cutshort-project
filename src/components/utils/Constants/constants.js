@@ -21,3 +21,16 @@ export const CONTENT= [
         sub: "You have completed onboarding, you can start using the Eden!"
     }
 ];
+
+export const CARD_CONTENT = [
+    {
+        id: 1,
+        main: "For myself",
+        sub: "Write better. Think more clearly. Stay organized."
+    },
+    {
+        id: 2,
+        main: "With my team",
+        sub: "Wikis, docs, tasks & projects, all in one place."
+    }
+];

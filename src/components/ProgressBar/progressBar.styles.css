@@ -1,6 +1,49 @@
 .Progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
     height: 35px;
-    width: 400px;
-    border: 2px solid;
-    margin-top: 30px;
+    width: 350px;
+    margin-top: 50px;
+}
+
+.Page{
+    width: 35px;
+    border: 1px solid gainsboro;
+    color: gray;
+    background-color: white;
+    font-size: small;
+    border-radius: 50%;
+    padding-top: 2%;
+    z-index: 10;
+}
+
+.Page1{
+    background-color: #5A4AD1;
+    color: white;
+    border: 1px solid #5A4AD1;
+}
+
+.BarContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.Bar{
+    width: 86px;
+    height: 0px;
+    margin-top: 18px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    transition: all 1s ease-in-out;
+}
+
+.Bar:first-child{
+    background-color: #5A4AD1;
+    border: 1px solid #5A4AD1;
+    width: 80px;
 }
