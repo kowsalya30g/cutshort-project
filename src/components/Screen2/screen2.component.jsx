@@ -28,7 +28,7 @@ const Screen2 = ({screen, workspace, handleChange, handleSubmit}) => {
                 </div>
                 <div className="UrlContainer">
                     <div className="UrlHost">
-                        www.eden.com/
+                        www.eden.com/&nbsp;
                     </div>
                     <input 
                     type="text"
@@ -37,8 +37,7 @@ const Screen2 = ({screen, workspace, handleChange, handleSubmit}) => {
                     value={workspace.workspaceUrl}
                     onChange={handleChange} 
                     minLength="4"
-                    maxLength="25"
-                    required/>
+                    maxLength="25"/>
                 </div>
                 
 

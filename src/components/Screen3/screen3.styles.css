@@ -32,7 +32,11 @@ span{
 @media (min-width: 200px) and (max-width: 600px) {
     .CardContainer{
         width: 270px;
-        margin-left: -40px;
+        margin-left: -35px;
+    }
+
+    .Form{
+        margin-left: 30px;
     }
   }
   
