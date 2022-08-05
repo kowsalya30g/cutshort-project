@@ -3,8 +3,10 @@ import userImg from '../../../assets/images/user.JPG';
 import groupImg from '../../../assets/images/group.JPG';
 import './selectCard.styles.css';
 
+//Reusable card component to select usage
 const SelectCard = ({card, setUseSelect, isActive}) => {
 
+    //HandleUseSelect event to set the usage
     const handleUseSelect = () => {
         setUseSelect({useSelect: card+1})
     }

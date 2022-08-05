@@ -32,6 +32,7 @@ input{
     height: 35px;
 }
 
+/* Media queries for different browser sizes */
 @media (min-width: 200px) and (max-width: 600px) {
     .Form{
         width: 200px;

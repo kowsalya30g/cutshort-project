@@ -3,6 +3,8 @@ import { CONTENT } from "../utils/Constants/constants"
 import SelectCard from "../utils/SelectCard/selectCard.component";
 import './screen3.styles.css';
 
+
+//Component for displaying third screen with usage selection
 const Screen3 = ({screen, useSelect, setUseSelect, handleSubmit}) => {
     return (
         <>

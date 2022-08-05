@@ -31,6 +31,8 @@ img{
     margin-right: 120px;
 }
 
+
+/* Media queries for different browser sizes */
 @media (min-width: 200px) and (max-width: 600px) {
     .Card{
         height: 120px;

@@ -11,6 +11,7 @@
     margin-right: 5px;
 }
 
+/* Media queries for different browser sizes */
 @media (min-width: 200px) and (max-width: 600px) {
     #Logo{
         height: 30px;
@@ -26,6 +27,4 @@
     #Logo{
         height: 40px;
     }
-
-    
   }

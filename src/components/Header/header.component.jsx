@@ -1,6 +1,7 @@
 import logo from '../../assets/images/logo.JPG';
 import './header.styles.css';
 
+// Component for logo and header
 const Header = () => {
     return (
         <div className="Header">

@@ -1,3 +1,4 @@
+//All texts to be displayed on the screens
 
 export const CONTENT= [
     {

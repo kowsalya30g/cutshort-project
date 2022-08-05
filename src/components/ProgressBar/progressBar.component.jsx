@@ -1,8 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import './progressBar.styles.css';
 
+//Component to track the screen number user is active on
 const ProgressBar = ({ screen }) => {
     const [pageArr, setPageArr] = useState([]);
+
+    //Getting the refs to page numbers and bar
     const page2 = useRef(0);
     const page3 = useRef(0);
     const page4 = useRef(0);
@@ -11,10 +14,12 @@ const ProgressBar = ({ screen }) => {
     const bar3 = useRef(0);
     const bar4 = useRef(0);
 
+    //Setting the page Array to keep track of page number user is active on
     useEffect(() => {
         setPageArr((page) => [...page, screen]);
     }, [screen]);
 
+    //Based on pageArray set the progress styles
     useEffect(() => {
         if(pageArr.includes(2)){
             page2.current.style.backgroundColor = "#5A4AD1";

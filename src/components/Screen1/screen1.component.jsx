@@ -2,6 +2,7 @@ import Button from "../utils/Button/button.component";
 import { CONTENT } from "../utils/Constants/constants"
 import './screen1.styles.css';
 
+//Component to display first screen with user details
 const Screen1 = ({screen, user, handleChange, handleSubmit}) => {
     return (
         <>

@@ -2,6 +2,7 @@ import Button from "../utils/Button/button.component";
 import { CONTENT } from "../utils/Constants/constants"
 import './screen2.styles.css';
 
+//Component for displaying second screen with workspace selection
 const Screen2 = ({screen, workspace, handleChange, handleSubmit}) => {
     return (
         <>

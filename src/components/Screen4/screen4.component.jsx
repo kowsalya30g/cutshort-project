@@ -5,9 +5,12 @@ import { CONTENT } from "../utils/Constants/constants"
 import check from "../../assets/images/check.JPG";
 import './screen4.styles.css';
 
+//Component to display last screen
 const Screen4 = ({screen}) => {
     const {formData} = useContext(UserContext);
 
+    //HandleClick event to log the final form data
+    //This is just a log. In real scenarios this data can be sent to backend to be stored
     const handleClick = () => {
         console.log("Final form Data after submission:- " , formData);
     }

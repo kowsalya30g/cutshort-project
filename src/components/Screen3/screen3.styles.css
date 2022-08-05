@@ -27,6 +27,8 @@ span{
     color: gray;
 }
 
+
+/* Media queries for different browser sizes */
 @media (min-width: 200px) and (max-width: 600px) {
     .CardContainer{
         width: 270px;

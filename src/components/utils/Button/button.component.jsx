@@ -1,5 +1,6 @@
 import './button.styles.css';
 
+//Reusable button component
 const Button = ({text, handleClick}) => {
     return (
         <>

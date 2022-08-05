@@ -11,6 +11,7 @@ const INITIAL_DATA = {
     saveForm: () => {}
 }
 
+//Context to set and retrieve the formData
 export const UserContext = createContext(INITIAL_DATA);
 
 export const UserProvider = ({ children }) => {
