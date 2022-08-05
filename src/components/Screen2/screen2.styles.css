@@ -57,3 +57,23 @@ input{
 #workspaceUrl{
     width: 400px;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .Form{
+        width: 200px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .optional{
+        margin-top: 17px;
+        font-size: small;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1399px) {
+    .Form{
+        width: 300px;
+        margin-top: 20px;
+    }
+  }

@@ -31,3 +31,17 @@ input{
     padding-left: 4%;
     height: 35px;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .Form{
+        width: 200px;
+        margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1399px) {
+    .Form{
+        width: 300px;
+        margin-top: 20px;
+    }
+  }

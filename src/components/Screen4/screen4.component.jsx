@@ -19,7 +19,7 @@ const Screen4 = ({screen}) => {
                 <h1>{CONTENT[screen-1].main} {formData.displayName}!</h1>
                 <span id="sub">{CONTENT[screen-1].sub}</span>
             </div>
-            <Button text="Launch Eden" handleClick={handleClick} />
+            <Button id="Launch" text="Launch Eden" handleClick={handleClick} />
         </div>    
     )
 };

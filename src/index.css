@@ -8,3 +8,27 @@ body {
 h1{
   color: #1c2334;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+  html, body {
+      font-size: 80%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  html, body {
+      font-size: 90%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1920px) {
+  html, body {
+      font-size: 100%;
+  }
+}
+
+@media (min-width: 1921px)  {
+  html, body {
+      font-size: 120%;
+  }
+}

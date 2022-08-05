@@ -47,3 +47,12 @@
     border: 1px solid #5A4AD1;
     width: 80px;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .Progress{
+        width: 270px;
+    }
+    .Bar{
+        width: 60px;
+    }
+  }

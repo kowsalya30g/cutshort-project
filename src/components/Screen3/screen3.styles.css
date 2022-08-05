@@ -26,3 +26,16 @@ span{
     font-size: medium;
     color: gray;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .CardContainer{
+        width: 270px;
+        margin-left: -40px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1399px) {
+    .CardContainer{
+        margin-left: -50px;
+    }
+  }
